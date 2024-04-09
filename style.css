@@ -1,0 +1,151 @@
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 20px;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: "Exo", sans-serif;
+    font-weight: bold;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+input[type="text"] {
+    text-transform: uppercase;
+}
+  
+
+html {
+    background-color: rgb(250, 244, 238);
+}
+
+.main {
+    margin: 5%;
+}
+
+h1 {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.add {
+    margin: 60px 0;
+}
+
+#tache {
+    height: 20px;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#add-button {
+    padding: 4px 6px;
+    border-radius: 6px;
+    background-color: rgb(143, 4, 207);
+    color: white;
+}
+
+.tache, .sous-tache {
+    position: relative;
+    width: 90%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: rgb(116, 116, 116);
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px 0 30px;
+    margin-bottom: 4px;
+}
+
+.fa-xmark {
+    color: rgb(255, 0, 0);
+}
+
+.fa-check {
+    color: greenyellow;
+}
+
+#finish-tasks {
+    margin-top: 200px;
+}
+
+.finish {
+    background-color: green;
+}
+
+.title-finish {
+    margin-bottom: 20px;
+}
+
+.icons {
+    display: flex;
+    gap: 40px;
+    transform: translate(-30px);
+}
+
+.fa-plus, .fa-comment, .fa-pen-to-square, .fa-xmark, .fa-check {
+    transform: scale(2);
+    cursor: pointer;
+}
+
+.task-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.sous-tache {
+    width: 60%;
+}
+
+.sous-tache-text {
+    border-radius: 6px;
+    width: 400px;
+}
+
+.div-icons-sous-tache {
+    display: flex;
+    gap: 20px;
+}
